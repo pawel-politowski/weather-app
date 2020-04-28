@@ -4,26 +4,3 @@
     margin: 0 auto;
     color: white;
 }
-
-
-
-.city {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 1.6em;
-}
-
-.country {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 1.1em;
-}
-
-.temp {
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 2em;
-    font-weight: 200;
-}
-
-.temp {
-    font-family: 'Merriweather', sans-serif;
-    font-size: 1.2em;
-}

@@ -1,11 +1,11 @@
 import React from 'react';
-import { CardLocation } from './WeatherCard.style'
+import { CardLocation, CardCity, CardCountry } from './WeatherCard.style'
 
 const Location = (props) => {
     return (
         <CardLocation>
-            <h1 className="city">Sydney</h1>
-            <h3 className="country">AU</h3>
+            <CardCity>Sydney</CardCity>
+            <CardCountry>AU</CardCountry>
         </CardLocation>
       );
 }
