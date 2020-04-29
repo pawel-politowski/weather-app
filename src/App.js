@@ -9,7 +9,9 @@ function App() {
 
   return (
     <div className="App">
-      <WeatherEngine />
+      <WeatherEngine location="Gdynia"/>
+      <WeatherEngine location="Rzym"/>
+      <WeatherEngine location="Londyn"/>
     </div>
   );
 }

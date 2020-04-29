@@ -2,6 +2,7 @@
 
 .App {
     margin: 0 auto;
-    color: white;
-    text-align: center;    
+    color: white;      
+    display: flex;  
+    justify-content: space-around;
 }
