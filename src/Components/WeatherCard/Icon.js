@@ -1,9 +1,9 @@
 import React from 'react';
 import { CardIcon } from './WeatherCard.style';
 
-const Icon = (props) => {
+const Icon = ({icon}) => {
     return (
-        <CardIcon src="" alt="Weather Icon"/>
+        <CardIcon src={`http://openweathermap.org/img/w/${icon}.png`} alt="Weather Icon"/>
       );
 }
  
